@@ -1,0 +1,83 @@
+*  {
+    margin: 0%;
+    padding: 0%;
+}
+.container {
+    background-image:url('./images/background-image.svg') ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card {
+    background-color: white;
+    box-shadow: 0 0 10px rgb(108, 72, 143);
+    width: 500px;
+    height: 350px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.card-img-container img {
+    width: 300px;
+    border-radius: 5px;
+}
+.card-login {
+    width: 300px;
+    background-color:white;
+    box-shadow: 0 0 20px rgb(111, 59, 146);
+    border-radius:4px ;
+    margin-right:  -350px; 
+}
+.login-header {
+    padding: 10px;
+}
+.login-header span {
+    font-size: 24px;
+    font-weight: 600;
+
+}
+.login-content {
+    padding: 10px;
+}
+.login-content-span {
+    margin-bottom: 20px;
+}
+.login-content-span label {
+    font-size: 18px;
+
+}
+.login-content-span input {
+    width: 90%;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+    outline: 2px solid grey;
+    margin-top: 5px;
+}
+.login-content-span input:focus {
+    outline: 3px solid rgb(121, 69, 133);
+
+}
+.login-actions {
+    padding: 10px;
+}
+.login-actions button {
+    width:70px ;
+    height: 30px;
+    background:rgba(255, 7, 2, 0.945);
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.login-actions button:hover {
+    transform: scale(0.8);
+}
+    
+
